@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Auto Renew Script
         env:
-          COOKIE: ${{ secrets.COOKIE }}
+          COOKIE: ${{ secrets.COOKIE1 }}
         run: |
           python renew.py
 
